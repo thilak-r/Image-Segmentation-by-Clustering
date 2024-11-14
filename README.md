@@ -1,7 +1,7 @@
 # ***Image Segmentation by Clustering: A Detailed Overview***
 
 
-under guidance of Dr agughasi victor [https://github.com/Victor-Ikechukwu](https://github.com/Victor-Ikechukwu)
+under guidance of Dr Agughasi Victor Ikechukwu (https://github.com/Victor-Ikechukwu)
 
 # Table of Contents
 1. [What is Image Segmentation?](#1-what-is-image-segmentation)
