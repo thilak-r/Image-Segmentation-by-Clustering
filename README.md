@@ -1,3 +1,8 @@
+# ***Image Segmentation by Clustering: A Detailed Overview***
+
+
+under guidance of Dr agughasi victor [https://github.com/Victor-Ikechukwu](https://github.com/Victor-Ikechukwu)
+
 # Table of Contents
 1. [What is Image Segmentation?](#1-what-is-image-segmentation)
 2. [What is Clustering in Image Segmentation?](#2-what-is-clustering-in-image-segmentation)
@@ -10,7 +15,6 @@
 
 ---
 
-# Image Segmentation by Clustering: A Detailed Overview
 
 ## 1. What is Image Segmentation?
 Image segmentation divides an image into meaningful segments to make it easier to analyze. These segments represent areas such as objects or boundaries.
