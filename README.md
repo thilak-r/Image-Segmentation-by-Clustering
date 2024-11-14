@@ -20,7 +20,7 @@ Image segmentation divides an image into meaningful segments to make it easier t
 - **Instance Segmentation**: Identifies and segments distinct instances of the same class (e.g., two cars).
 - **Panoptic Segmentation**: Combines both semantic and instance segmentation for detailed analysis.
 
-![Image illustrating different types of segmentation](image-placeholder.png)
+
 
 ---
 
@@ -61,6 +61,8 @@ Assigns a class label to every pixel. Used for general categorization (e.g., lan
 Identifies and segments distinct objects within the same category.
 - **Applications**: Tumor detection, robotics, autonomous vehicles.
 
+![Application Screenshot](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/SS-380x156.png)
+
 ---
 
 ## 5. Use of Image Segmentation in Image Processing
@@ -82,16 +84,24 @@ Image segmentation enhances image analysis by isolating regions of interest, hel
 ### 1. **Basic K-means Clustering (k=3)**
 Performs image segmentation with 3 clusters.
 
+### Segmentation for k = 3
+![Segmentation for k=3](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/for%20k%3D3.png)
+
 - **Process**: Reads and reshapes the image, applies K-means clustering.
 - **Applications**: Segmentation of foreground and background.
 
 ### 2. **Basic K-means Clustering (k=2)**
 Similar to the previous method but segments the image into 2 clusters.
 
+### Segmentation for k = 2
+![Segmentation for k=2](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/for%20k%3D2.png)
+
 - **Applications**: Binary segmentation (e.g., separating sky from ground).
 
 ### 3. **Elbow Method for Optimal k**
 The Elbow Method is used to determine the optimal number of clusters (**k**) for segmentation.
+
+![Elbow Method](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/elbow_method.png)
 
 - **Process**: 
   1. The sum of squared distances (SSD) between points and their assigned cluster centroid is calculated for different values of **k**.
@@ -106,7 +116,8 @@ The Elbow Method is used to determine the optimal number of clusters (**k**) for
 
 - **Applications**: The Elbow Method helps in choosing the ideal **k** value automatically, which can improve segmentation accuracy.
 
-![Elbow method graph example](elbow-method-graph-placeholder.png)
+### Optimal k Value Determination
+![Optimal k Value](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/optimal%20k%20value.png)
 
 ### 4. **Preprocessing and K-means Clustering with Grayscale Image**
 Preprocesses image with resizing, blurring, and equalization before clustering.
@@ -123,19 +134,14 @@ Preprocesses image with resizing, blurring, and equalization before clustering.
 - **Content-based Image Retrieval**: Improved image search accuracy by segmenting images.
 
 
-## Image Segmentation by Clustering
 
-### Screenshot of the Application
-![Application Screenshot](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/SS-380x156.png)
 
-### Elbow Method
-![Elbow Method](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/elbow_method.png)
 
-### Segmentation for k = 2
-![Segmentation for k=2](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/for%20k%3D2.png)
 
-### Segmentation for k = 3
-![Segmentation for k=3](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/for%20k%3D3.png)
 
-### Optimal k Value Determination
-![Optimal k Value](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/optimal%20k%20value.png)
+
+
+
+
+
+
