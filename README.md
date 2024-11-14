@@ -121,3 +121,21 @@ Preprocesses image with resizing, blurring, and equalization before clustering.
 - **Autonomous Driving**: Road segmentation, object detection.
 - **Satellite Image Analysis**: Land use classification and vegetation analysis.
 - **Content-based Image Retrieval**: Improved image search accuracy by segmenting images.
+
+
+## Image Segmentation by Clustering
+
+### Screenshot of the Application
+![Application Screenshot](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/SS-380x156.png)
+
+### Elbow Method
+![Elbow Method](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/elbow_method.png)
+
+### Segmentation for k = 2
+![Segmentation for k=2](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/for%20k%3D2.png)
+
+### Segmentation for k = 3
+![Segmentation for k=3](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/for%20k%3D3.png)
+
+### Optimal k Value Determination
+![Optimal k Value](https://github.com/thilak-r/image-segmentation-by-clustering/blob/main/optimal%20k%20value.png)
