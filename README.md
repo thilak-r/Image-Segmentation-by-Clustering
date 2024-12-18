@@ -1,8 +1,6 @@
 # ***Image Segmentation by Clustering: A Detailed Overview***
 
 
-under guidance of Dr Agughasi Victor Ikechukwu (https://github.com/Victor-Ikechukwu)
-
 # Table of Contents
 1. [What is Image Segmentation?](#1-what-is-image-segmentation)
 2. [What is Clustering in Image Segmentation?](#2-what-is-clustering-in-image-segmentation)
@@ -140,6 +138,7 @@ Preprocesses image with resizing, blurring, and equalization before clustering.
 
 
 
+under guidance of Dr Agughasi Victor Ikechukwu (https://github.com/Victor-Ikechukwu)
 
 
 
